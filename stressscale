@@ -81,14 +81,13 @@
     <!--MAIN HEADER AREA END -->
 
     <!--MAIN BANNER AREA START -->
-    <div class="page-banner-area page-pricing" id="page-banner">
+    <div class="page-banner-area page-blog" id="page-banner">
         <div class="overlay dark-overlay"></div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
                     <div class="banner-content content-padding">
-                        <h1 class="banner-title">Perceived Stress Scale</h1>
-                        <p>Let us calculate your perceived stress and we'll show you how you compare to other people around the world!</p>
+                        <h1 class="banner-title">Stress Survey</h1>
                     </div>
                 </div>
             </div>
@@ -96,86 +95,284 @@
     </div>
     <!--MAIN HEADER AREA END -->
 
-    <!--DEMOGRAPHIC QUESTIONNAIRE -->
-    <body>
-	<h1> Enter your Demographics </h1>
-        <p>
-          <label>Gender</label>
-          <input type = "text"
-                 id = "myGender" />
-        </p>
-	<p>
-          <label>Age</label>
-          <input type = "text"
-                 id = "myAge" />
-        </p>
-	<p>
-          <label>State</label>
-          <input type = "text"
-                 id = "myState" />
-        </p>
-	<p>
-          <label>Country</label>
-          <input type = "text"
-                 id = "myCountry" />
-        </p>
+    <!--  Blog AREA START  -->
+    <section class="section-padding">
+        <div class="container">	
 
-    <!--  FOOTER AREA START  -->
-    <section id="footer" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-8 col-md-8">
-                    <div class="footer-widget footer-link">
-                        <h4>We concern about you<br> to grow business rapidly.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam hic non sunt recusandae atque unde saepe nihil earum voluptatibus aliquid optio suscipit nobis quia excepturi vel quod, iure quae.</p>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-4 col-md-4">
-                    <div class="footer-widget footer-link">
-                        <h4>About</h4>
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
+									<p>
+										<label>1. In the last month, how often have you been upset because of something that happened unexpectedly?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
 
-                <div class="col-lg-2 col-sm-6 col-md-6">
-                    <div class="footer-widget footer-link">
-                        <h4>Quick Links</h4>
-                        <ul>
-                            <li><a href="#">How it Works</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Report Bug</a></li>
-                            <li><a href="#">License</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 col-md-6">
-                    <div class="footer-widget footer-text">
-                        <h4>Our location</h4>
-                        <p class="mail"><span>Mail:</span> promdise@gmail.com</p>
-                        <p><span>Phone :</span>+202-277-3894</p>
-                        <p><span>Location:</span> 455 West Orchard Street Kings Mountain, NC 28086,NOC building</p>
-                    </div>
+
+									<p>
+										<label>2. In the last month, how often have you felt that you were unable to control the important things in your life?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+
+
+									<p>
+										<label>3. In the last month, how often have you felt nervous and stressed?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+
+
+									<p>
+										<label>4. In the last month, how often have you felt confident about your ability to handle your personal problems?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+
+
+
+									<p>
+										<label>5. In the last month, how often have you felt that things were going your way?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+
+
+									<p>
+										<label>6. In the last month, how often have you found that you could not cope with all the things that you had to do?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+
+									<p>
+										<label>7. In the last month, how often have you been able to control irritations in your life?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+
+
+									<p>
+										<label>8. In the last month, how often have you felt that you were on top of things?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+
+									<p>
+										<label>9. In the last month, how often have you been angered because of things that happened that were outside of your control?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+
+									<p>
+										<label>10. In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?</label>
+										<div class="control">
+										  <label class="radio">
+											<input type="radio" name="answer">
+											0-Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											1-Almost Never
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											2-Sometimes
+										  </label>
+										<label class="radio">
+											<input type="radio" name="answer">
+											3-Fairly Often
+										  </label>
+										  <label class="radio">
+											<input type="radio" name="answer">
+											4-Very Often
+										  </label>
+										</div>
+									</p>
+								<input type = "submit" name ="Submit" value = "Submit">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="footer-copy">
-                        © 2018 Promodise inc. All Rights Reserved.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--  FOOTER AREA END  -->
+
+        </div> 
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
